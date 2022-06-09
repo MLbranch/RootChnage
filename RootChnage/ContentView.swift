@@ -8,9 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var isLogin = UserDefaults.standard.bool(forKey: "auth")
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        Group {
+            isLogin ? AnyView(TabController()) : AnyView(LoginView())
+        }
+        .onReceive(RootController.auth) { newValue in
+            isLogin = newValue
+            UserDefaults.standard.set(newValue, forKey: "auth")
+        }
+
     }
 }
 

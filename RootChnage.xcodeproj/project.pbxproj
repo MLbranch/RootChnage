@@ -11,6 +11,11 @@
 		7AD3B2EF28520F84000AF18E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD3B2EE28520F84000AF18E /* ContentView.swift */; };
 		7AD3B2F128520F86000AF18E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AD3B2F028520F86000AF18E /* Assets.xcassets */; };
 		7AD3B2F428520F86000AF18E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AD3B2F328520F86000AF18E /* Preview Assets.xcassets */; };
+		7AD3B2FC28520FAF000AF18E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD3B2FB28520FAF000AF18E /* LoginView.swift */; };
+		7AD3B2FE28520FB9000AF18E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD3B2FD28520FB9000AF18E /* HomeView.swift */; };
+		7AD3B30028520FC2000AF18E /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD3B2FF28520FC2000AF18E /* SettingView.swift */; };
+		7AD3B302285210C0000AF18E /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD3B301285210C0000AF18E /* TabController.swift */; };
+		7AD3B304285211A6000AF18E /* RootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD3B303285211A6000AF18E /* RootController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		7AD3B2EE28520F84000AF18E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7AD3B2F028520F86000AF18E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AD3B2F328520F86000AF18E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7AD3B2FB28520FAF000AF18E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7AD3B2FD28520FB9000AF18E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7AD3B2FF28520FC2000AF18E /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		7AD3B301285210C0000AF18E /* TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
+		7AD3B303285211A6000AF18E /* RootController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +61,12 @@
 		7AD3B2EB28520F84000AF18E /* RootChnage */ = {
 			isa = PBXGroup;
 			children = (
+				7AD3B2FA28520FA5000AF18E /* View */,
 				7AD3B2EC28520F84000AF18E /* RootChnageApp.swift */,
 				7AD3B2EE28520F84000AF18E /* ContentView.swift */,
 				7AD3B2F028520F86000AF18E /* Assets.xcassets */,
 				7AD3B2F228520F86000AF18E /* Preview Content */,
+				7AD3B303285211A6000AF18E /* RootController.swift */,
 			);
 			path = RootChnage;
 			sourceTree = "<group>";
@@ -65,6 +77,17 @@
 				7AD3B2F328520F86000AF18E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7AD3B2FA28520FA5000AF18E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AD3B2FB28520FAF000AF18E /* LoginView.swift */,
+				7AD3B2FD28520FB9000AF18E /* HomeView.swift */,
+				7AD3B2FF28520FC2000AF18E /* SettingView.swift */,
+				7AD3B301285210C0000AF18E /* TabController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AD3B2FC28520FAF000AF18E /* LoginView.swift in Sources */,
+				7AD3B302285210C0000AF18E /* TabController.swift in Sources */,
+				7AD3B30028520FC2000AF18E /* SettingView.swift in Sources */,
+				7AD3B2FE28520FB9000AF18E /* HomeView.swift in Sources */,
 				7AD3B2EF28520F84000AF18E /* ContentView.swift in Sources */,
+				7AD3B304285211A6000AF18E /* RootController.swift in Sources */,
 				7AD3B2ED28520F84000AF18E /* RootChnageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
